@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script src="./js/close-pixelate.js"></script>
+  <script src="./js/main.js"></script>
+  <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+<div class="root-div">
+  <div id="image-bg-div">
+  </div>
+  <input type="file" style="display: none;" id="file-select-input" accept="image/jpg,image/jpeg,image/png,application/pdf" />
+  <div class="export-file-type">
+    <p>导出的文件类型</p>
+    <label for="image-jpg-type" id="jpg-type-label" class="active"><input type="radio" name="export-file-type" value="image/jpg" id="image-jpg-type" checked />image/jpg</label>
+    <label for="image-png-type" id="png-type-label"><input type="radio" name="export-file-type" value="image/png" id="image-png-type" />image/png</label>
+  </div>
+  <div class="export-mosaic-level">
+    <p>马赛克模糊程度<span>（每个马赛克方格的长宽值, 数值为输入值 * 2px）</span></p>
+    <input type="text" id="mosaic-level" value="5" />
+  </div>
+  <button type="button" id="select-file-btn">选择图片</button>
+  <button type="button" id="export-file-btn">导出图片</button>
+  <a href="" id="download-file-link" download="">download</a>
+</div>
+</body>
+</html>
