@@ -91,7 +91,7 @@ window.onload = function () {
   const changeExportFileType = function(e) {
     exportFileType = e.target.value;
     const activeType = exportFileType.substr(6);
-    const inactiveType = activeType === 'jpg' ? 'png' : 'jpg';
+    const inactiveType = activeType === 'jpeg' ? 'png' : 'jpeg';
     $$(activeType + '-type-label').classList.add('active');
     $$(inactiveType + '-type-label').classList.remove('active');
   };
@@ -106,4 +106,4 @@ window.onload = function () {
       $$('download-file-link').click();
     }
   }, false);
-}
+};
