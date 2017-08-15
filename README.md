@@ -6,7 +6,7 @@
     
 可以自定义马赛克大小和图片导出的格式
     
-demo地址：[http://ashshen.cc/index.php/photo-mosaic/](http://ashshen.cc/index.php/photo-mosaic/)。
+demo地址：[http://web-site-files.ashshen.cc/blog/pages/index.html](http://web-site-files.ashshen.cc/blog/pages/index.html)。
     
 实现效果：
 ![效果图](https://github.com/Ash-sc/mosaic-image/raw/master/images/mosaic.png)
